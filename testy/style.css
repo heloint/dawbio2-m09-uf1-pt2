@@ -4,7 +4,19 @@
         linear-gradient(
           rgba(0, 0, 0, 0.7), 
           rgba(0, 0, 0, 0.7)
-        ),url('../images/banner-img.png');
+        ),url('../images/banner-img.jpg');
     position: relative;
     height: 50rem;
+}
+
+#navbar-icon {
+    max-width: 3rem;
+}
+
+.award-box {
+    display: flex;
+    align-items: center;
+    height: 7rem;
+    border: 1px solid black;
+    padding: 1rem;
 }
