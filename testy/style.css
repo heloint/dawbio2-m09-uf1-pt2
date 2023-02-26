@@ -1,0 +1,10 @@
+.banner-image {
+    background-image: 
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),url('../images/banner-img.png');
+    position: relative;
+    height: 50rem;
+}
