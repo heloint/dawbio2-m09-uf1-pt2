@@ -1,9 +1,24 @@
+const nav = $(".navbar");
+
 $(document).ready(function () {
+  if ($(window).width() < 991) {
+    nav.addClass("collasped-nav");
+  } else {
+    nav.removeClass("collasped-nav");
+  }
+
   $(function () {
     $(document).scroll(function () {
-      var $nav = $(".fixed-top");
-      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      nav.toggleClass("scrolled", $(this).scrollTop() > nav.height());
     });
+  });
+
+  $(window).on("resize", function () {
+    if ($(this).width() < 991) {
+      nav.addClass("collasped-nav");
+    } else {
+      nav.removeClass("collasped-nav");
+    }
   });
 
   $(".learn-more-btn").click(function () {

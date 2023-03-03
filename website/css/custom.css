@@ -1,4 +1,17 @@
-.fixed-top.scrolled {
+@media (min-width: 991px) {
+    .navbar {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+
+
+.sticky-top.scrolled {
+  background-color: #055475 !important;
+  transition: background-color 200ms linear;
+}
+
+.collasped-nav{
   background-color: #055475 !important;
   transition: background-color 200ms linear;
 }
