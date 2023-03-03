@@ -1,3 +1,18 @@
+section > * {
+  animation: reorganize 0.5s ease;
+}
+
+@keyframes reorganize {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .youtube-video {
   height: 500px;
   width: 900px;
@@ -90,6 +105,7 @@
 .banner-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/banner-img.jpg");
+  background-attachment: fixed;
   position: relative;
   min-height: 50rem;
 }
@@ -110,8 +126,9 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/virtual-world-img.jpg");
   background-position: 30% 40%;
-  min-height: 30rem;
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 30rem;
 }
 
 .colorful-img-md {
@@ -131,6 +148,7 @@
     ),
     url("../images/virtual-world-img.jpg");
   background-position: 30% 40%;
+  background-attachment: fixed;
   height: 25rem;
 }
 
@@ -147,6 +165,7 @@
     ),
     url("../images/grow-brands-img.jpg");
   background-position: 30% 40%;
+  background-attachment: fixed;
   height: 30rem;
 }
 
