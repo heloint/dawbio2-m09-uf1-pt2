@@ -1,63 +1,57 @@
 .youtube-video {
-    height: 500px;
-    width: 900px;
+  height: 500px;
+  width: 900px;
 }
 
 @media (max-width: 1201px) {
-    .youtube-video {
-        height: 300px;
-        width: 600px;
-    }
+  .youtube-video {
+    height: 300px;
+    width: 600px;
+  }
 }
 
 @media (max-width: 768px) {
-    .youtube-video {
-        height: 280px;
-        width: 500px;
-    }
+  .youtube-video {
+    height: 280px;
+    width: 500px;
+  }
 }
 
 @media (max-width: 666px) {
-    .youtube-video {
-        height: 250px;
-        width: 400px;
-    }
+  .youtube-video {
+    height: 250px;
+    width: 400px;
+  }
 }
 
 @media (max-width: 497px) {
-    .youtube-video {
-        width: 420px;
-    }
+  .youtube-video {
+    width: 420px;
+  }
 }
 
 @media (max-width: 437px) {
-    .youtube-video {
-        height: 200px;
-        width: 400px;
-    }
+  .youtube-video {
+    height: 200px;
+    width: 400px;
+  }
 }
 
 @media (min-width: 991px) {
-    .navbar {
-        padding-left: 15rem;
-        padding-right: 15rem;
-    }
-
+  .navbar {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
 }
-
 
 .sticky-top.scrolled {
   background-color: #055475 !important;
   transition: background-color 200ms linear;
 }
 
-.collasped-nav{
+.collasped-nav {
   background-color: #055475 !important;
   transition: background-color 200ms linear;
-}
-
-.relative-anchor {
-  position: relative;
 }
 
 #main-header {
@@ -70,9 +64,8 @@
 }
 
 .banner-gap {
-    height: 50rem !important;
+  height: 50rem !important;
 }
-
 
 .h-2-rem {
   height: 2rem;
@@ -95,11 +88,7 @@
 }
 
 .banner-image {
-  background-image: 
-      linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/banner-img.jpg");
   position: relative;
   min-height: 50rem;
@@ -118,12 +107,7 @@
 }
 
 #v-world-section {
-
-  background-image: 
-      linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/virtual-world-img.jpg");
   background-position: 30% 40%;
   min-height: 30rem;
