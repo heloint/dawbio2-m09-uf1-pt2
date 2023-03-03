@@ -96,7 +96,7 @@
 
 .banner-image {
   background-image: 
-        /* top, transparent black, faked with gradient */ linear-gradient(
+      linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
@@ -118,7 +118,13 @@
 }
 
 #v-world-section {
-  background-image: url("../images/virtual-world-img.jpg");
+
+  background-image: 
+      linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../images/virtual-world-img.jpg");
   background-position: 30% 40%;
   min-height: 30rem;
   background-size: cover;
