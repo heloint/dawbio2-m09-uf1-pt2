@@ -1,8 +1,56 @@
+.youtube-video {
+    height: 500px;
+    width: 900px;
+}
+
+@media (max-width: 1201px) {
+    .youtube-video {
+        height: 300px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube-video {
+        height: 280px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 666px) {
+    .youtube-video {
+        height: 250px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 497px) {
+    .youtube-video {
+        height: 220px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 437px) {
+    .youtube-video {
+        height: 190px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 437px) {
+    .youtube-video {
+        height: 180px;
+        width: 260px;
+    }
+}
+
 @media (min-width: 991px) {
     .navbar {
         padding-left: 15rem;
         padding-right: 15rem;
     }
+
 }
 
 
