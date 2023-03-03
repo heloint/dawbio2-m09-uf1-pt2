@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
   transform-style: preserve-3d;
 }
 
@@ -24,7 +24,7 @@
   background-color: rgba(255, 255, 255, 0.5);
   transform: translateZ(-1px);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.2s ease;
 }
 
 .card:hover::before {
