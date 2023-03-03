@@ -26,22 +26,14 @@
 
 @media (max-width: 497px) {
     .youtube-video {
-        height: 220px;
-        width: 350px;
+        width: 420px;
     }
 }
 
 @media (max-width: 437px) {
     .youtube-video {
-        height: 190px;
-        width: 300px;
-    }
-}
-
-@media (max-width: 437px) {
-    .youtube-video {
-        height: 180px;
-        width: 260px;
+        height: 200px;
+        width: 400px;
     }
 }
 
@@ -112,16 +104,17 @@
 
 .award-box {
   display: flex;
+  width: fit-content;
+  padding: 1.4rem;
   align-items: center;
-  height: 7rem;
-  border: 1px solid black;
-  padding: 1rem;
+  max-height: 7rem;
 }
 
 #v-world-section {
   background-image: url("../images/virtual-world-img.jpg");
   background-position: 30% 40%;
-  height: 37rem;
+  min-height: 30rem;
+  background-size: cover;
 }
 
 .colorful-img-md {
@@ -145,7 +138,7 @@
 }
 
 .v-world-col {
-  border-left: 1px solid grey;
+  border: 1px solid grey;
   border-right: 1px solid grey;
 }
 
@@ -294,7 +287,7 @@
   margin: 12px 0 0;
   outline: none;
   overflow: hidden;
-  padding: 0 25px;
+  padding: 0 1rem;
   position: relative;
   text-align: center;
   text-transform: none;
