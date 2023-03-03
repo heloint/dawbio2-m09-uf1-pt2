@@ -34,12 +34,7 @@
 </head>
 
 <body>
-
-
-    <!-- HEADER -->
-    <header class="banner-image">
-        <!-- NAVBAR -->
-                <nav class="sticky-top navbar navbar-expand-lg navbar-dark">
+<nav class="sticky-top navbar navbar-expand-lg navbar-dark">
                     <div class="container-fluid px-5">
                         <a class="navbar-brand" href="#"><img id="navbar-icon" src="./images/navbar-icon.png" /></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,29 +43,29 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarColor03">
-                            <ul class="navbar-nav gap-3 align-items-center">
+                            <ul class="navbar-nav gap-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">Home </a>
+                                    <a class="nav-link active" href="#main-header">Home </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#about">About</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                                         aria-haspopup="true" aria-expanded="false">Mega Menu</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="#v-world-section">Virtual World</a>
+                                        <a class="dropdown-item" href="#v-world-section-2">Another Virtual World</a>
+                                        <a class="dropdown-item" href="#team-members">Team members</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Separated link</a>
+                                        <a class="dropdown-item" href="#experiences">Experiences</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link" href="#blog">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
 
                                 <li>
@@ -82,11 +77,9 @@
                         </div>
                     </div>
                 </nav>
-        <!-- END: NAVBAR -->
-        <div class="banner-container container">
-            <div class="row">
-            </div>
-        </div>
+
+    <!-- HEADER -->
+    <header id="main-header" class="banner-image">
 
         <!-- Banner message -->
         <div class="row d-flex justify-content-center my-xl-5 my-lg-0 my-md-0 my-sm-0 my-xs-0">
@@ -145,8 +138,16 @@
     </header>
     <!-- END: HEADER -->
 
+    <!-- BANNER / CONTENT GAP -->
+    <div class="banner-gap container" >
+        <div class="row">
+        </div>
+    </div>
+    <!-- END: BANNER / CONTENT GAP -->
+
+
     <!-- VIDEO SECTION -->
-    <section class="container my-5">
+    <section id="#about" class="container my-5">
         <div class="row d-flex justify-content-center my-5">
             <div class="col-5 my-3">
                 <h3 class="text-center">
@@ -241,11 +242,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal Title</h5>
+                    <h5 class="modal-title">Have mercy.</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Modal content goes here.</p>
+                    <p>At least, can I get a 5, please?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
@@ -320,7 +321,7 @@
 
     <div class="w-100 border my-5"></div>
 
-    <section class="container my-5">
+    <section id="experiences" class="container my-5">
         <div class="row d-flex justify-content-center my-5">
             <div class="col-5 my-3">
                 <h3 class="text-center">
@@ -448,9 +449,9 @@
     <!-- END: V-WORLD-SECTION 2 -->
 
     <!-- AWESOME TEAM MEMBERS -->
-    <section class="container">
+    <section id="team-members" class="container">
         <div class="row d-flex justify-content-center my-5 px-5">
-            <div class="col-5">
+            <div class="col-xl-5 col-lg-5 col-md-8 col-10">
                 <h3>Awesome team members</h3>
                 <p>
                     We Circle back push back for game plan it's a webify job or not
@@ -459,8 +460,8 @@
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="p-0 card mb-3 mx-md-1 mx-lg-3 col-lg-5 col-xl-2">
+        <div class="row justify-content-center gap-3">
+            <div class="p-0 card col-8 col-sm-5 col-lg-5 col-xl-2">
                 <img src="images/awesome-team-member-1.png" />
                 <div class="card-body">
                     <h6 class="text-center card-title">Ann Yong</h6>
@@ -468,14 +469,14 @@
                         Marketing Consultant
                     </p>
                 </div>
-                <div class="bg-white text-muted d-flex justify-content-center">
+                <div class="bg-white text-muted text-center">
                     <small><a class="no-style text-muted" href="#">Linkedin</a></small>
                     <small><a class="no-style text-muted" href="#">| Facebook |</a></small>
                     <small><a class="no-style text-muted" href="#">Google</a></small>
                 </div>
             </div>
 
-            <div class="p-0 card mb-3 mx-md-1 mx-lg-3 col-lg-5 col-xl-2">
+            <div class="p-0 card col-8 col-sm-5 col-lg-5 col-xl-2">
                 <img src="images/awesome-team-member-2.png" />
                 <div class="card-body">
                     <h6 class="text-center card-title">Robert Links</h6>
@@ -483,7 +484,7 @@
                         Accounting Consultant
                     </p>
                 </div>
-                <div class="bg-white text-muted d-flex justify-content-center">
+                <div class="bg-white text-muted text-center">
                     <small><a class="no-style text-muted" href="#">Linkedin</a></small>
                     <small><a class="no-style text-muted" href="#">| Facebook |</a></small>
                     <small><a class="no-style text-muted" href="#">Google</a></small>
@@ -491,7 +492,7 @@
             </div>
 
             <!-- <div class="w-100 d-block-md"></div> -->
-            <div class="p-0 card mb-3 mx-md-1 mx-lg-3 col-lg-5 col-xl-2">
+            <div class="p-0 card col-8 col-sm-5 col-lg-5 col-xl-2">
                 <img src="images/awesome-team-member-3.png" />
                 <div class="card-body">
                     <h6 class="text-center card-title">Carl Johnson</h6>
@@ -499,20 +500,20 @@
                         Finance Consultant
                     </p>
                 </div>
-                <div class="bg-white text-muted d-flex justify-content-center">
+                <div class="bg-white text-muted text-center">
                     <small><a class="no-style text-muted" href="#">Linkedin</a></small>
                     <small><a class="no-style text-muted" href="#">| Facebook |</a></small>
                     <small><a class="no-style text-muted" href="#">Google</a></small>
                 </div>
             </div>
 
-            <div class="p-0 card mb-3 mx-md-1 mx-lg-3 col-lg-5 col-xl-2">
+            <div class="p-0 card col-8 col-sm-5 col-lg-5 col-xl-2">
                 <img src="images/awesome-team-member-4.png" />
                 <div class="card-body">
                     <h6 class="text-center card-title">Marissa Mayer</h6>
                     <p class="text-center card-subtitle text-muted">Media Consultant</p>
                 </div>
-                <div class="bg-white text-muted d-flex justify-content-center">
+                <div class="bg-white text-muted text-center">
                     <small><a class="no-style text-muted" href="#">Linkedin</a></small>
                     <small><a class="no-style text-muted" href="#">| Facebook |</a></small>
                     <small><a class="no-style text-muted" href="#">Google</a></small>
@@ -525,7 +526,7 @@
     <!-- GROW BRANDS -->
     <!-- Section message -->
     <div class="grow-brand-image row d-flex justify-content-center align-items-center my-5">
-        <div class="col-5 my-5">
+        <div class="col-xl-5 col-lg-5 col-md-8 col-10 my-5">
             <p class="text-white text-center">
                 Webify – All-in-One Elementor WordPress Theme
             </p>
@@ -541,8 +542,8 @@
     <!-- END: Section message -->
     <!-- END: GROW BRANDS -->
 
-    <!-- AGILE BUSINESS STARTUP -->
-    <section class="container">
+    <!-- RECENT BLOGS -->
+    <section id="blog" class="container">
         <div class="row d-flex justify-content-center my-5 px-5">
             <div class="col-xl-5">
                 <h1 class="text-center">Recent blog entries</h1>
@@ -587,7 +588,7 @@
             </div>
         </div>
     </section>
-    <!-- END: AGILE BUSINESS STARTUP -->
+    <!-- END: RECENT BLOGS -->
 
     <div class="w-100 border my-5"></div>
 
@@ -614,7 +615,7 @@
             <a href="#"><i class="text-secondary bi bi-instagram"></i></a>
         </div>
 
-        <form class="d-flex justify-content-center align-items-center">
+        <form id="contact" class="d-flex justify-content-center align-items-center">
             <input type="text" placeholder="Enter your email" required />
             <button class="m-0 button-9" role="button">
                 <i class="m-0 bi bi-send"></i>

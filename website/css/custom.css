@@ -60,12 +60,19 @@
   position: relative;
 }
 
-.banner-container {
-  background: transparent;
+#main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 900;
 }
-.color-71797e {
-  color: #71797e;
+
+.banner-gap {
+    height: 50rem !important;
 }
+
 
 .h-2-rem {
   height: 2rem;
